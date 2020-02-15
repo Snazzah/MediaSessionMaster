@@ -10,6 +10,7 @@ const Util = window.Util = {
         bandcamp: { enable: true },
         twitch: { enable: true },
         clippit: { enable: true },
+        vine: { enable: true },
       },
       darkTheme: document.querySelector('title').computedStyleMap().get('line-height').value === 1,
     };

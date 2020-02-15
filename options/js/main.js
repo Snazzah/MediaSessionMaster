@@ -54,6 +54,17 @@ const SiteData = [{
   hasExperiments: false,
   nsfw: false,
   key: 'clippit',
+}, {
+  title: 'Vine',
+  url: 'https://vine.co',
+  flags: {
+    metadata: 'supported',
+    events: 'native',
+    seeking: 'supported',
+  },
+  hasExperiments: false,
+  nsfw: false,
+  key: 'vine',
 }];
 
 window.addEventListener('load', async () => {

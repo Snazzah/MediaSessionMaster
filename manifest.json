@@ -28,6 +28,11 @@
       "matches": ["https://clippituser.tv/c/*", "https://www.clippituser.tv/c/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/clippit.js"]
+    },
+    {
+      "matches": ["https://vine.co/v/*", "https://www.vine.co/v/*"],
+      "run_at": "document_idle",
+      "js": ["options/js/util.js", "sites/vine.js"]
     }
   ],
   "permissions": [
