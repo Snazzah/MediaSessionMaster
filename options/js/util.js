@@ -5,7 +5,8 @@ const Util = window.Util = {
       enableExpr: false,
       showNSFWSites: false,
       sites: {
-        soundcloud: { enable: true }
+        soundcloud: { enable: true },
+        bandcamp: { enable: true },
       },
       darkTheme: document.querySelector('title').computedStyleMap().get('line-height').value === 1,
     };

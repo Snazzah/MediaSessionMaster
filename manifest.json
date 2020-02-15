@@ -13,6 +13,11 @@
       "matches": ["https://soundcloud.com/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/soundcloud.js"]
+    },
+    {
+      "matches": ["https://*.bandcamp.com/track/*", "https://*.bandcamp.com/album/*"],
+      "run_at": "document_idle",
+      "js": ["options/js/util.js", "sites/bandcamp.js"]
     }
   ],
   "permissions": [

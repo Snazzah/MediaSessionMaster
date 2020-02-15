@@ -21,6 +21,17 @@ const SiteData = [{
   hasExperiments: false,
   nsfw: false,
   key: 'soundcloud',
+}, {
+  title: 'Bandcamp',
+  url: 'https://bandcamp.com',
+  flags: {
+    metadata: 'supported',
+    events: 'supported',
+    seeking: 'unsupported',
+  },
+  hasExperiments: false,
+  nsfw: false,
+  key: 'bandcamp',
 }];
 
 window.addEventListener('load', async () => {
