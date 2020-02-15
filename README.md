@@ -20,11 +20,11 @@ Once downloaded, in order to load the package:
 - Appreciate the effort!
 
 ## Contributions
-are greatly appreciated! Here's how you can contribute:
+...are greatly appreciated! Here's how you can contribute:
 - You can create an [issue](https://github.com/Snazzah/MediaSessionMaster/issues) if you wanna report bugs, suggest features, or nitpick at grammar.
 - You can also create [pull requests](https://github.com/Snazzah/MediaSessionMaster/pulls) if you want to make features yourself! Make sure you push to the `master` branch and give a detailed description of your pull request!
 
 ## Credits
-Mostly inspired by [Animal Crossing Music Extension](https://acmusicext.com/), check it out!
-I use [Chrome Bootstrap](https://github.com/roykolak/chrome-bootstrap) for the options page.
-Music Session Master is licensed under the [zlib license](./LICENSE).
+Mostly inspired by [Animal Crossing Music Extension](https://acmusicext.com/), check it out!  
+I use [Chrome Bootstrap](https://github.com/roykolak/chrome-bootstrap) for the options page.  
+Music Session Master is licensed under the [zlib license](./LICENSE).  
