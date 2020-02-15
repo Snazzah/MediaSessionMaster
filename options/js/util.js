@@ -9,6 +9,7 @@ const Util = window.Util = {
         soundcloud: { enable: true },
         bandcamp: { enable: true },
         twitch: { enable: true },
+        clippit: { enable: true },
       },
       darkTheme: document.querySelector('title').computedStyleMap().get('line-height').value === 1,
     };

@@ -23,6 +23,11 @@
       "matches": ["https://twitch.tv/*", "https://www.twitch.tv/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/twitch.js"]
+    },
+    {
+      "matches": ["https://clippituser.tv/c/*", "https://www.clippituser.tv/c/*"],
+      "run_at": "document_idle",
+      "js": ["options/js/util.js", "sites/clippit.js"]
     }
   ],
   "permissions": [

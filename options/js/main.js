@@ -43,6 +43,17 @@ const SiteData = [{
   hasExperiments: false,
   nsfw: false,
   key: 'twitch',
+}, {
+  title: 'Clippit',
+  url: 'https://clippit.tv',
+  flags: {
+    metadata: 'supported',
+    events: 'native',
+    seeking: 'supported',
+  },
+  hasExperiments: false,
+  nsfw: false,
+  key: 'clippit',
 }];
 
 window.addEventListener('load', async () => {
