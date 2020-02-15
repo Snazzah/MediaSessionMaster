@@ -1,0 +1,74 @@
+@media (prefers-color-scheme:dark) {
+  title {
+    line-height: 1px;
+  }
+}
+
+.chrome-bootstrap.dark-theme {
+  background-color: #222;
+  color: #aaa;
+}
+
+.chrome-bootstrap.dark-theme h3 {
+  color: white;
+}
+
+.chrome-bootstrap.dark-theme ul.menu li.selected a {
+  color: #eee;
+}
+
+.chrome-bootstrap.dark-theme ul.menu li.selected {
+  -webkit-border-start-color: #e1e1e1;
+}
+
+.chrome-bootstrap.dark-theme h1 small,
+.chrome-bootstrap.dark-theme h2 small,
+.chrome-bootstrap.dark-theme h3 small,
+.chrome-bootstrap.dark-theme h4 small {
+  color: #eee;
+}
+
+.chrome-bootstrap.dark-theme .frame .navigation {
+  background-color: #252525;
+  border-right: 1px solid #444;
+}
+
+.chrome-bootstrap.dark-theme header {
+  background-image: -webkit-linear-gradient(#202020, #202020 40%, rgba(32, 32, 32, 0.92));
+}
+
+.chrome-bootstrap.dark-theme header h1 {
+  border-bottom: 1px solid #151515;
+}
+
+.chrome-bootstrap.dark-theme select,
+.chrome-bootstrap.dark-theme input[type='checkbox'],
+.chrome-bootstrap.dark-theme input[type='radio'],
+.chrome-bootstrap.dark-theme input[type='button'],
+.chrome-bootstrap.dark-theme button {
+  background-image: -webkit-linear-gradient(#232323, #232323 38%, #202020);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.08), inset 0 1px 2px rgba(22, 22, 22, 0.75);
+  color: #ddd;
+  text-shadow: 0 1px 0 #000;
+}
+
+.chrome-bootstrap.dark-theme select:hover:enabled,
+.chrome-bootstrap.dark-theme input[type='checkbox']:hover:enabled,
+.chrome-bootstrap.dark-theme input[type='radio']:hover:enabled,
+.chrome-bootstrap.dark-theme button:hover:enabled {
+  background-image: -webkit-linear-gradient(#0f0f0f, #0f0f0f 38%, #0e0e0e);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12), inset 0 1px 2px rgba(22, 22, 22, 0.95);
+  color: #fff;
+}
+
+.chrome-bootstrap.dark-theme select:enabled:before,
+.chrome-bootstrap.dark-theme input[type='checkbox']:enabled:before,
+.chrome-bootstrap.dark-theme input[type='radio']:enabled:before {
+  filter: invert();
+}
+
+td {
+  border: 1px solid #333;
+}

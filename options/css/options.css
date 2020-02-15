@@ -1,0 +1,187 @@
+.chrome-bootstrap .main-title-container {
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.chrome-bootstrap .main-title-container>img {
+  float: left;
+}
+
+.chrome-bootstrap .main-title-text {
+  margin-left: 128px;
+  height: 104px;
+  padding: 12px;
+}
+
+.chrome-bootstrap .main-title-text h1 {
+  margin-left: 0;
+  margin-bottom: 5px;
+  height: auto;
+}
+
+h1.msm-title {
+  color: #f1c40f;
+  font-weight: 900;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+}
+
+.chrome-bootstrap section {
+  border-radius: 2px;
+}
+
+section > p:first-of-type {
+  margin: 6px 0;
+}
+
+section > h4 {
+  margin-top: 10px;
+}
+
+h3, h4 {
+  font-weight: bold !important;
+}
+
+@keyframes scrolled {
+  0% {
+      background-color: inherit;
+  }
+
+  50% {
+      background-color: rgb(102, 255, 156);
+  }
+
+  100% {
+      background-color: inherit;
+  }
+}
+
+.nav-buttons>tbody>tr>td {
+  border: none;
+}
+
+.nav-buttons-2 {
+  max-width: 66%;
+  margin-top: -12px;
+}
+
+.nav-button {
+  padding: 7px 0 35px 0;
+}
+
+.nav-button>img {
+  width: 100%;
+}
+
+.changelog-list, .changelog-list>li {
+  list-style-type: disc !important;
+}
+
+.changelog-list>li {
+  padding: 4px 0;
+}
+
+.changelog-list {
+  padding: 0 40px !important;
+}
+
+.changelog-date {
+  color: gray;
+  font-weight: normal;
+}
+
+.chrome-bootstrap .frame .content {
+  padding-left: 20px;
+}
+
+.chrome-bootstrap header h1 {
+  padding-left: 20px;
+}
+
+.chrome-bootstrap header {
+  width: 100%;
+}
+
+.chrome-bootstrap .frame .navigation {
+  border-right: 1px solid #eee;
+}
+
+#site-list input + label span {
+  margin: 0;
+}
+
+#site-list tr td:nth-child(2) {
+  text-align: left;
+  padding-left: 10px;
+}
+
+#site-list .site-name {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#site-list .site-favicon {
+  margin-right: 5px;
+}
+
+#site-list .flag-supported {
+  background-color: rgba(57, 181, 74, .5);
+}
+
+#site-list .flag-unsupported {
+  background-color: rgba(196, 66, 48, .5);
+}
+
+#site-list .flag-native {
+  background-color: rgba(12, 95, 23, 0.5);
+}
+
+input[type=checkbox]:not(old) + label, input[type=radio ]:not(old) + label {
+  display: inline-block;
+  line-height: 12px;
+  margin: 2px 0 2px 5px;
+}
+
+span.nsfw-tag {
+  margin-left: 5px;
+  border-radius: 3px;
+  padding: 5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 10px;
+  background-color: rgb(196, 66, 48);
+}
+
+span.nsfw-tag:after {
+  content: 'NSFW';
+}
+
+.contributor-list a {
+  text-decoration: none;
+}
+
+.contributor-list img {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  float: left;
+}
+
+.contributor-list span {
+  padding: 5px 5px;
+  display: inline-block;
+}
+
+.contributor-list li + li {
+  margin-top: 10px;
+}
