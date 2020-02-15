@@ -4,6 +4,7 @@ const Util = window.Util = {
       enable: true,
       enableExpr: false,
       showNSFWSites: false,
+      skipTime: 10,
       sites: {
         soundcloud: { enable: true },
         bandcamp: { enable: true },

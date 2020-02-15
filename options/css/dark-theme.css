@@ -69,6 +69,14 @@
   filter: invert();
 }
 
+.chrome-bootstrap.dark-theme input[type='text'],
+.chrome-bootstrap.dark-theme input[type='number'],
+.chrome-bootstrap.dark-theme input[type='search'] {
+  border: 1px solid #444;
+  color: #ddd;
+  background-image: -webkit-linear-gradient(#232323, #232323 38%, #202020);
+}
+
 td {
   border: 1px solid #333;
 }

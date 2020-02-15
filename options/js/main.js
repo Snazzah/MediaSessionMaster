@@ -27,7 +27,7 @@ const SiteData = [{
   flags: {
     metadata: 'supported',
     events: 'supported',
-    seeking: 'unsupported',
+    seeking: 'supported',
   },
   hasExperiments: false,
   nsfw: false,

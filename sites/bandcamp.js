@@ -1,4 +1,4 @@
-Util.ensureSite('bandcamp', () => {
+Util.ensureSite('bandcamp', (data) => {
   navigator.mediaSession.metadata = new MediaMetadata();
   const variables = document.querySelector("#pgBd > script:nth-of-type(2)").text.split('var ');
   const path = new URL(location.href).pathname;
@@ -44,16 +44,14 @@ Util.ensureSite('bandcamp', () => {
       navigator.mediaSession.setActionHandler('nexttrack', (index + 1) !== TralbumData.trackinfo.length ? () => document.querySelector('.nextbutton').click() : null);
       navigator.mediaSession.setActionHandler('previoustrack', index !== 0 ? () => document.querySelector('.prevbutton').click() : null);
 
-      let defaultSkipTime = 10; /* Time to skip in seconds by default */
-
       navigator.mediaSession.setActionHandler('seekbackward', function(event) {
-        const skipTime = event.seekOffset || defaultSkipTime;
+        const skipTime = event.seekOffset || data.skipTime;
         audio.currentTime = Math.max(audio.currentTime - skipTime, 0);
         updatePosition();
       });
 
       navigator.mediaSession.setActionHandler('seekforward', function(event) {
-        const skipTime = event.seekOffset || defaultSkipTime;
+        const skipTime = event.seekOffset || data.skipTime;
         audio.currentTime = Math.min(audio.currentTime + skipTime, audio.duration);
         updatePosition();
       });
@@ -122,17 +120,15 @@ Util.ensureSite('bandcamp', () => {
         
         navigator.mediaSession.setActionHandler('nexttrack', null);
         navigator.mediaSession.setActionHandler('previoustrack', null);
-
-        let defaultSkipTime = 10; /* Time to skip in seconds by default */
   
         navigator.mediaSession.setActionHandler('seekbackward', function(event) {
-          const skipTime = event.seekOffset || defaultSkipTime;
+          const skipTime = event.seekOffset || data.skipTime;
           audio.currentTime = Math.max(audio.currentTime - skipTime, 0);
           updatePosition('audio:nth-of-type(2)');
         });
   
         navigator.mediaSession.setActionHandler('seekforward', function(event) {
-          const skipTime = event.seekOffset || defaultSkipTime;
+          const skipTime = event.seekOffset || data.skipTime;
           audio.currentTime = Math.min(audio.currentTime + skipTime, audio.duration);
           updatePosition('audio:nth-of-type(2)');
         });
