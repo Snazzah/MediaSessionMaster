@@ -32,6 +32,17 @@ const SiteData = [{
   hasExperiments: false,
   nsfw: false,
   key: 'bandcamp',
+}, {
+  title: 'Twitch',
+  url: 'https://twitch.tv',
+  flags: {
+    metadata: 'supported',
+    events: 'native',
+    seeking: 'unsupported',
+  },
+  hasExperiments: false,
+  nsfw: false,
+  key: 'twitch',
 }];
 
 window.addEventListener('load', async () => {

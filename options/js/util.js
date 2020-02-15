@@ -8,6 +8,7 @@ const Util = window.Util = {
       sites: {
         soundcloud: { enable: true },
         bandcamp: { enable: true },
+        twitch: { enable: true },
       },
       darkTheme: document.querySelector('title').computedStyleMap().get('line-height').value === 1,
     };

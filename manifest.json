@@ -18,6 +18,11 @@
       "matches": ["https://*.bandcamp.com/track/*", "https://*.bandcamp.com/album/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/bandcamp.js"]
+    },
+    {
+      "matches": ["https://twitch.tv/*", "https://www.twitch.tv/*"],
+      "run_at": "document_idle",
+      "js": ["options/js/util.js", "sites/twitch.js"]
     }
   ],
   "permissions": [
