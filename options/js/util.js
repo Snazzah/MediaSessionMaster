@@ -11,6 +11,7 @@ const Util = window.Util = {
         twitch: { enable: true },
         clippit: { enable: true },
         vine: { enable: true },
+        picarto: { enable: true },
       },
       darkTheme: document.querySelector('title').computedStyleMap().get('line-height').value === 1,
     };

@@ -65,6 +65,17 @@ const SiteData = [{
   hasExperiments: false,
   nsfw: false,
   key: 'vine',
+}, {
+  title: 'Picarto',
+  url: 'https://picarto.tv',
+  flags: {
+    metadata: 'supported',
+    events: 'native',
+    seeking: 'unsupported',
+  },
+  hasExperiments: false,
+  nsfw: false,
+  key: 'picarto',
 }];
 
 window.addEventListener('load', async () => {

@@ -33,6 +33,11 @@
       "matches": ["https://vine.co/v/*", "https://www.vine.co/v/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/vine.js"]
+    },
+    {
+      "matches": ["https://picarto.tv/*"],
+      "run_at": "document_idle",
+      "js": ["options/js/util.js", "sites/picarto.js"]
     }
   ],
   "permissions": [
