@@ -4,12 +4,6 @@
       const reactKey = Object.keys(element).find(key => key.startsWith('__reactInternalInstance'));
       return reactKey ? element[reactKey] : null;
     },
-    get self() {
-      return document.querySelector('#mm-script');
-    },
-    get data() {
-      return JSON.parse(Util.self.getAttribute('data'));
-    },
     get player() {
       return document.querySelector('.now-playing-bar');
     },
@@ -56,6 +50,11 @@
       }
     }
   };
+  
+  // Get data and remove script
+  const self = document.querySelector('#mm-script');
+  Util.data = JSON.parse(self.getAttribute('data'));
+  self.remove();
   
   navigator.mediaSession.metadata = new MediaMetadata();
   
