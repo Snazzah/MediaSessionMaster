@@ -76,6 +76,17 @@ const SiteData = [{
   hasExperiments: false,
   nsfw: false,
   key: 'picarto',
+}, {
+  title: 'Spotify',
+  url: 'https://spotify.com',
+  flags: {
+    metadata: 'native',
+    events: 'supported',
+    seeking: 'supported',
+  },
+  hasExperiments: false,
+  nsfw: false,
+  key: 'spotify',
 }];
 
 window.addEventListener('load', async () => {

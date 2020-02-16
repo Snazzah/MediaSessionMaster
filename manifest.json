@@ -38,8 +38,16 @@
       "matches": ["https://picarto.tv/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/picarto.js"]
+    },
+    {
+      "matches": ["https://open.spotify.com/*"],
+      "run_at": "document_idle",
+      "js": ["options/js/util.js", "sites/spotify/content.js"]
     }
   ],
+	"web_accessible_resources": [
+		"sites/spotify/top.js"
+	],
   "permissions": [
     "storage"
   ],

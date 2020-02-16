@@ -12,6 +12,7 @@ const Util = window.Util = {
         clippit: { enable: true },
         vine: { enable: true },
         picarto: { enable: true },
+        spotify: { enable: true },
       },
       darkTheme: document.querySelector('title').computedStyleMap().get('line-height').value === 1,
     };
@@ -26,4 +27,11 @@ const Util = window.Util = {
     const data = await Util.getData();
     if(data.sites[site].enable && 'mediaSession' in navigator) callback(data);
   },
+  async injectScript(file) {
+    const script = document.createElement('script');
+    script.id = "mm-script";
+    script.setAttribute('data', JSON.stringify(await Util.getData()));
+    script.src = chrome.extension.getURL(file);
+    document.querySelector('html').appendChild(script);
+  }
 };
