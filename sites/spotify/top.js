@@ -1,5 +1,5 @@
 (() => {
-  const Util = window.MMUtil = {
+  const Util = {
     getReactInstance(element) {
       const reactKey = Object.keys(element).find(key => key.startsWith('__reactInternalInstance'));
       return reactKey ? element[reactKey] : null;
@@ -63,4 +63,8 @@
   
   const seekObserver = new MutationObserver(Util.updatePosition);
   seekObserver.observe(document.querySelector('.now-playing-bar__center'), { childList: true, subtree: true });
+  
+  // Expose util when experiments are on
+  if(Util.data.enableExpr)
+    window.MMUtil = Util;
 })();
