@@ -84,7 +84,7 @@ const SiteData = [{
     actions: 'native',
     seeking: 'supported',
   },
-  hasExperiments: false,
+  hasExperiments: true,
   nsfw: false,
   key: 'spotify',
 }];
@@ -133,6 +133,12 @@ window.addEventListener('load', async () => {
     nameTitle.innerText = site.title;
     nameTitle.href = site.url;
     nameCell.append(nameTitle);
+
+    if(site.hasExperiments) {
+      const exprTag = document.createElement('span');
+      exprTag.className = "expr-tag";
+      nameTitle.append(exprTag);
+    }
 
     if(site.nsfw) {
       const nsfwTag = document.createElement('span');
