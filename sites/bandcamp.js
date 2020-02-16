@@ -56,14 +56,12 @@ Util.ensureSite('bandcamp', (data) => {
         updatePosition();
       });
 
-      try {
-        navigator.mediaSession.setActionHandler('seekto', function(event) {
-          if (event.fastSeek && ('fastSeek' in audio))
-            return audio.fastSeek(event.seekTime);
-          audio.currentTime = event.seekTime;
-          updatePosition();
-        });
-      } catch(e) { }
+      navigator.mediaSession.setActionHandler('seekto', function(event) {
+        if (event.fastSeek && ('fastSeek' in audio))
+          return audio.fastSeek(event.seekTime);
+        audio.currentTime = event.seekTime;
+        updatePosition();
+      });
 
       updatePosition();
     };
@@ -132,15 +130,13 @@ Util.ensureSite('bandcamp', (data) => {
           audio.currentTime = Math.min(audio.currentTime + skipTime, audio.duration);
           updatePosition('audio:nth-of-type(2)');
         });
-  
-        try {
-          navigator.mediaSession.setActionHandler('seekto', function(event) {
-            if (event.fastSeek && ('fastSeek' in audio))
-              return audio.fastSeek(event.seekTime);
-            audio.currentTime = event.seekTime;
-            updatePosition('audio:nth-of-type(2)');
-          });
-        } catch(e) { }
+
+        navigator.mediaSession.setActionHandler('seekto', function(event) {
+          if (event.fastSeek && ('fastSeek' in audio))
+            return audio.fastSeek(event.seekTime);
+          audio.currentTime = event.seekTime;
+          updatePosition('audio:nth-of-type(2)');
+        });
   
         updatePosition('audio:nth-of-type(2)');
       };
