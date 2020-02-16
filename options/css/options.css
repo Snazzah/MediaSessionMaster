@@ -152,25 +152,13 @@ input[type=checkbox]:not(old) + label, input[type=radio ]:not(old) + label {
   margin: 2px 0 2px 5px;
 }
 
-span.nsfw-tag {
-  margin-left: 5px;
-  border-radius: 3px;
-  padding: 5px;
-  color: #fff;
-  font-weight: 600;
-  font-size: 10px;
-  background-color: rgb(196, 66, 48);
-}
-
 span.nsfw-tag:after {
-  content: 'NSFW';
+  content: url(https://api.iconify.design/emojione-monotone:no-one-under-eighteen.svg?color=%23c44230&height=16);
+  margin-left: 5px;
 }
 
 span.expr-tag:after {
-  content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9IjAgMCA2NDAgMTAyNCI+PHBhdGggZmlsbD0nI2ZmZWIzYicgZD0iTTYxOCA5NzFMNDQ4IDc2OVY0MTZoMjFxMTQgMCAyMy05LjV0OS0yM3QtOS0yMi41dC0yMy05aC01M3EtMTMgMC0yMi41IDl0LTkuNSAyM3YzOTdxMCAxMyA4IDIybDEzMSAxNTdIMTE3bDEzMS0xNTdxOC05IDgtMjJWMzg0cTAtMTQtOS41LTIzdC0yMi41LTloLTUzcS0xNCAwLTIzIDl0LTkgMjIuNXQ5IDIzdDIzIDkuNWgyMXYzNTNMMjIgOTcxcS0xNCAxNS02IDM0cTQgOSAxMiAxNHQxNyA1aDU1MHEyMCAwIDI4LjUtMTl0LTUuNS0zNHpNMjg4IDMyMHEyNiAwIDQ1LTE5dDE5LTQ1LjV0LTE5LTQ1dC00NS0xOC41cS0xMyAwLTI1IDV0LTIwLjUgMTMuNVQyMjkgMjMxdC01IDI1cTAgNiAxIDExLjV0MyAxMC41dDUgMTB0Ni41IDl0Ny41IDcuNXQ5IDYuNXQxMCA1dDEwLjUgM3QxMS41IDF6bTIwOC41LTk1cTQ2LjUgMCA3OS41LTMzdDMzLTc5LjVUNTc2IDMzVDQ5Ni41IDBUNDE3IDMzdC0zMyA3OS41dDMzIDc5LjV0NzkuNSAzM3pNNDk2IDY0cTEwIDAgMTkgMy41dDE1LjUgMTB0MTAgMTUuNXQzLjUgMTlxMCAyMC0xNCAzNHQtMzQgMTRxLTEzIDAtMjQtNi41VDQ1NC41IDEzNnQtNi41LTI0cTAtMjAgMTQtMzR0MzQtMTR6IiAvPjwvc3ZnPg==);
-  width: 10px;
-  height: 10px;
-  display: inline-block;
+  content: url(https://api.iconify.design/simple-line-icons:chemistry.svg?color=%23FDD835&height=16);
   margin-left: 5px;
 }
 
