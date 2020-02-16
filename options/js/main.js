@@ -15,7 +15,7 @@ const SiteData = [{
   url: 'https://soundcloud.com',
   flags: {
     metadata: 'supported',
-    events: 'native',
+    actions: 'native',
     seeking: 'unsupported',
   },
   hasExperiments: false,
@@ -26,7 +26,7 @@ const SiteData = [{
   url: 'https://bandcamp.com',
   flags: {
     metadata: 'supported',
-    events: 'supported',
+    actions: 'supported',
     seeking: 'supported',
   },
   hasExperiments: false,
@@ -37,7 +37,7 @@ const SiteData = [{
   url: 'https://twitch.tv',
   flags: {
     metadata: 'supported',
-    events: 'native',
+    actions: 'native',
     seeking: 'unsupported',
   },
   hasExperiments: false,
@@ -48,7 +48,7 @@ const SiteData = [{
   url: 'https://clippit.tv',
   flags: {
     metadata: 'supported',
-    events: 'native',
+    actions: 'native',
     seeking: 'supported',
   },
   hasExperiments: false,
@@ -59,7 +59,7 @@ const SiteData = [{
   url: 'https://vine.co',
   flags: {
     metadata: 'supported',
-    events: 'native',
+    actions: 'native',
     seeking: 'supported',
   },
   hasExperiments: false,
@@ -70,7 +70,7 @@ const SiteData = [{
   url: 'https://picarto.tv',
   flags: {
     metadata: 'supported',
-    events: 'native',
+    actions: 'native',
     seeking: 'unsupported',
   },
   hasExperiments: false,
@@ -81,7 +81,7 @@ const SiteData = [{
   url: 'https://spotify.com',
   flags: {
     metadata: 'native',
-    events: 'supported',
+    actions: 'native',
     seeking: 'supported',
   },
   hasExperiments: false,
@@ -141,7 +141,7 @@ window.addEventListener('load', async () => {
     }
 
     row.append(MainUtil.createFlagCell(site.flags.metadata));
-    row.append(MainUtil.createFlagCell(site.flags.events));
+    row.append(MainUtil.createFlagCell(site.flags.actions));
     row.append(MainUtil.createFlagCell(site.flags.seeking));
   });
 });
