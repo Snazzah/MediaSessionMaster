@@ -3,7 +3,6 @@ Util.ensureSite('amazonmusic', (data) => {
     navigator.mediaSession.metadata = new MediaMetadata();
 
     const updateInfo = () => {
-        console.log('updateInfo' + document.querySelector('.trackInfoContainer .trackTitle span').innerText)
         navigator.mediaSession.metadata.title = document.querySelector('.trackInfoContainer .trackTitle span').innerText;
         navigator.mediaSession.metadata.artist = document.querySelector('.trackInfoContainer .trackArtist span').innerText;
         navigator.mediaSession.metadata.album = document.querySelector('.trackInfoContainer .trackSourceLink a').innerText;
