@@ -43,6 +43,11 @@
       "matches": ["https://open.spotify.com/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/spotify/content.js"]
+    },
+    {
+      "matches": ["https://music.amazon.de/*", "https://music.amazon.com/*"],
+      "run_at": "document_idle",
+      "js": ["options/js/util.js", "sites/amazonmusic.js"]
     }
   ],
 	"web_accessible_resources": [
@@ -57,5 +62,5 @@
   ],
   "options_page": "options/index.html",
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
