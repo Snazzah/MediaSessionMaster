@@ -82,7 +82,7 @@ const SiteData = [{
   flags: {
     metadata: 'supported',
     actions: 'supported',
-    seeking: 'supported',
+    seeking: 'unsupported',
   },
   hasExperiments: false,
   nsfw: false,
