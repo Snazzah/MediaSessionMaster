@@ -1,4 +1,3 @@
-// abc
 Util.ensureSite('amazonmusic', (data) => {
     navigator.mediaSession.metadata = new MediaMetadata();
 
