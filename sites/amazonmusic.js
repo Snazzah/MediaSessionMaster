@@ -33,5 +33,5 @@ Util.ensureSite('amazonmusic', (data) => {
     }
 
     const observer = new MutationObserver(onMutation);
-    observer.observe(document.querySelector('.playbackControlsView'), { childList: true, subtree: true });
+    observer.observe(document.querySelector('body'), { childList: true, subtree: true });
 });
