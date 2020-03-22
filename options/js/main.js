@@ -78,7 +78,7 @@ const SiteData = [{
   key: 'picarto',
 }, {
   title: 'Amazon Music',
-  url: 'https://music.amazon.de',
+  url: 'https://music.amazon.com',
   flags: {
     metadata: 'supported',
     actions: 'supported',
