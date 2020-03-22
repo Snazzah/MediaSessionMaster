@@ -13,6 +13,7 @@ const Util = window.Util = {
         vine: { enable: true },
         picarto: { enable: true },
         spotify: { enable: true },
+        amazonmusic: { enable: true },
       },
       darkTheme: document.querySelector('title').computedStyleMap().get('line-height').value === 1,
     };
