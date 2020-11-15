@@ -10,7 +10,7 @@ MediaSession API allows you to pause & play media within Chrome's UI and extends
 
 | - | Version | Users |
 |-|-|-|
-| **Install to [Chrome](https://chrome.google.com/webstore/detail/media-session-master/ifnpfinojkapkmeidcimnaigcclnahjb)** | ![version](https://img.shields.io/chrome-web-store/v/ifnpfinojkapkmeidcimnaigcclnahjb) | ![users](https://img.shields.io/chrome-web-store/users/ifnpfinojkapkmeidcimnaigcclnahjb) |
+| [![](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/media-session-master/ifnpfinojkapkmeidcimnaigcclnahjb) | ![version](https://img.shields.io/chrome-web-store/v/ifnpfinojkapkmeidcimnaigcclnahjb) | ![users](https://img.shields.io/chrome-web-store/users/ifnpfinojkapkmeidcimnaigcclnahjb) |
 
 You can download the development branch [here](https://github.com/Snazzah/MusicSessionMaster/archive/master.zip) or the stable branch [here](https://github.com/Snazzah/MusicSessionMaster/archive/stable.zip).
 
@@ -20,6 +20,9 @@ Once downloaded, in order to load the package:
 - Flip the `Developer Mode` switch on the top right of the screen.
 - Click `Load unpacked` on the top left and select the folder you extracted.
 - Appreciate the effort!
+
+### Sidenote: Firefox
+Firefox support is planned, however MediaSession API on Firefox is still experimental, and requires a flag to be checked. ([See caniuse](https://caniuse.com/mdn-api_mediasession)) At the moment, some sites such as Soundcloud are not working with the flag enabled and others may not work properly.
 
 ## Contributions
 ...are greatly appreciated! Here's how you can contribute:
