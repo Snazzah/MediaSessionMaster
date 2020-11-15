@@ -8,7 +8,9 @@ MediaSession API allows you to pause & play media within Chrome's UI and extends
 
 ## Installation
 
-The extension is not available in the Chrome Web Store yet, but you are able to download the ZIP of the source code and install it locally.
+| - | Version | Users |
+|-|-|-|
+| **Install to [Chrome](https://chrome.google.com/webstore/detail/media-session-master/ifnpfinojkapkmeidcimnaigcclnahjb)** | ![version](https://img.shields.io/chrome-web-store/v/ifnpfinojkapkmeidcimnaigcclnahjb) | ![users](https://img.shields.io/chrome-web-store/users/ifnpfinojkapkmeidcimnaigcclnahjb) |
 
 You can download the development branch [here](https://github.com/Snazzah/MusicSessionMaster/archive/master.zip) or the stable branch [here](https://github.com/Snazzah/MusicSessionMaster/archive/stable.zip).
 
