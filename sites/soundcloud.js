@@ -52,6 +52,7 @@ Util.ensureSite('soundcloud', () => {
       switch(mutation.target.className) {
         case "playbackSoundBadge paused":
         case "playbackSoundBadge":
+        case "playControl sc-ir playControls__control playControls__play playing":
           updateInfo();
           break;
         case "playbackTimeline__duration":
