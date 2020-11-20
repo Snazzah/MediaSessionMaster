@@ -17,7 +17,7 @@
     {
       "matches": ["https://*.bandcamp.com/track/*", "https://*.bandcamp.com/album/*"],
       "run_at": "document_idle",
-      "js": ["options/js/util.js", "sites/bandcamp.js"]
+      "js": ["options/js/util.js", "sites/bandcamp/content.js"]
     },
     {
       "matches": ["https://twitch.tv/*", "https://www.twitch.tv/*"],
@@ -51,6 +51,7 @@
     }
   ],
 	"web_accessible_resources": [
+		"sites/bandcamp/top.js",
 		"sites/spotify/top.js"
 	],
   "permissions": [
