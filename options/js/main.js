@@ -98,6 +98,17 @@ const SiteData = [{
   hasExperiments: true,
   nsfw: false,
   key: 'spotify',
+}, {
+  title: 'Newgrounds',
+  url: 'https://www.newgrounds.com',
+  flags: {
+    metadata: 'supported',
+    actions: 'supported',
+    seeking: 'supported',
+  },
+  hasExperiments: false,
+  nsfw: false,
+  key: 'newgrounds',
 }];
 
 window.addEventListener('load', async () => {

@@ -48,11 +48,17 @@
       "matches": ["https://music.amazon.de/*", "https://music.amazon.com/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/amazonmusic.js"]
+    },
+    {
+      "matches": ["https://www.newgrounds.com/*"],
+      "run_at": "document_idle",
+      "js": ["options/js/util.js", "sites/newgrounds/content.js"]
     }
   ],
 	"web_accessible_resources": [
 		"sites/bandcamp/top.js",
-		"sites/spotify/top.js"
+		"sites/spotify/top.js",
+		"sites/newgrounds/top.js"
 	],
   "permissions": [
     "storage"
