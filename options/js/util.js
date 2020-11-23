@@ -16,14 +16,21 @@ const Util = window.Util = {
         amazonmusic: { enable: true },
         newgrounds: { enable: true },
       },
-      darkTheme: document.querySelector('title').computedStyleMap().get('line-height').value === 1,
+      darkTheme: window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)').matches : false,
     };
   },
+  get root() {
+    return chrome || browser
+  },
   getData() {
-    return new Promise(resolve => chrome.storage.sync.get(Util.defaultOptions, resolve));
+    if (chrome)
+      return new Promise(resolve => chrome.storage.sync.get(Util.defaultOptions, resolve));
+    return Promise.resolve(browser.storage.sync.get(Util.defaultOptions));
   },
   setData(data) {
-    return new Promise(resolve => chrome.storage.sync.set(data, resolve));
+    if (chrome)
+      return new Promise(resolve => Util.root.storage.sync.set(data, resolve));
+    return Promise.resolve(browser.storage.sync.set(data));
   },
   async ensureSite(site, callback) {
     const data = await Util.getData();

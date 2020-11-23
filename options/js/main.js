@@ -112,7 +112,7 @@ const SiteData = [{
 }];
 
 window.addEventListener('load', async () => {
-  document.querySelector('.version').innerText = `v${chrome.runtime.getManifest().version}`;
+  document.querySelector('.version').innerText = `v${Util.root.runtime.getManifest().version}`;
   const data = await Util.getData();
 
   // Dark Theme
