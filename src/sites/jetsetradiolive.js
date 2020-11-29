@@ -1,4 +1,4 @@
-Util.ensureSite('upbeatradio', () => {
+Util.ensureSite('jetsetradiolive', () => {
   navigator.mediaSession.metadata = new MediaMetadata();
 
   const stationIDMap = {
