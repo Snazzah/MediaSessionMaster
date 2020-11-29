@@ -26,7 +26,6 @@ Util.ensureSite('listenmoe', () => {
   const onMutation = mutations => {
     mutations.forEach(mutation => {
 			if(!mutation.target || !mutation.target.className) return;
-			console.log(mutation.target.className, mutation.target.id)
       switch(mutation.target.className) {
         case "playbackContainer":
 				case "player shadow":
