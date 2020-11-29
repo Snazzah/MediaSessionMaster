@@ -1,6 +1,15 @@
-![Screenshot](img/screenshot.png)
+<div align="center">
+  <img src="/static/vector.svg" alt="logo" height=100 />
+  
+  # Media Session Master
 
-# 🎵 Media Session Master
+[![version](https://img.shields.io/chrome-web-store/v/ifnpfinojkapkmeidcimnaigcclnahjb) ![users](https://img.shields.io/chrome-web-store/users/ifnpfinojkapkmeidcimnaigcclnahjb)](https://chrome.google.com/webstore/detail/media-session-master/ifnpfinojkapkmeidcimnaigcclnahjb)
+
+  <br>
+  <br>
+</div>
+
+![Screenshot](static/screenshot.png)
 
 Media Session Master is a chrome extension that utilizes [Chrome's MediaSession API](https://developers.google.com/web/updates/2017/02/media-session) in sites that don't fully support it.
 
@@ -8,9 +17,10 @@ MediaSession API allows you to pause & play media within Chrome's UI and extends
 
 ## Installation
 
-| - | Version | Users |
-|-|-|-|
-| [![](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/media-session-master/ifnpfinojkapkmeidcimnaigcclnahjb) | ![version](https://img.shields.io/chrome-web-store/v/ifnpfinojkapkmeidcimnaigcclnahjb) | ![users](https://img.shields.io/chrome-web-store/users/ifnpfinojkapkmeidcimnaigcclnahjb) |
+| Available Webstores | 
+|-|
+| [![](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/media-session-master/ifnpfinojkapkmeidcimnaigcclnahjb) |
+
 
 You can download the development branch [here](https://github.com/Snazzah/MusicSessionMaster/archive/master.zip) or the stable branch [here](https://github.com/Snazzah/MusicSessionMaster/archive/stable.zip).
 
@@ -25,7 +35,7 @@ Once downloaded, in order to load the package:
 Firefox support is planned, however MediaSession API on Firefox is still experimental, and requires a flag to be checked. ([See caniuse](https://caniuse.com/mdn-api_mediasession)) At the moment, some sites such as Soundcloud are not working with the flag enabled and others may not work properly.
 
 ## Contributions
-...are greatly appreciated! Here's how you can contribute:
+Contributions to the GitHub repository are greatly appreciated! Here's how you can contribute:
 - You can create an [issue](https://github.com/Snazzah/MediaSessionMaster/issues) if you wanna report bugs, suggest features, or nitpick at grammar.
 - You can also create [pull requests](https://github.com/Snazzah/MediaSessionMaster/pulls) if you want to make features yourself! Make sure you push to the `master` branch and give a detailed description of your pull request!
 
