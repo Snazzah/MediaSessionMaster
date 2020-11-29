@@ -18,6 +18,7 @@ const Util = window.Util = {
         listenmoe: { enable: true },
         upbeatradio: { enable: true },
         jetsetradiolive: { enable: true },
+        storyfire: { enable: true },
       },
       darkTheme: window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)').matches : false,
     };

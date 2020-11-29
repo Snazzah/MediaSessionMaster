@@ -68,6 +68,11 @@
       "matches": ["https://jetsetradio.live/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/jetsetradiolive.js"]
+    },
+    {
+      "matches": ["https://storyfire.com/video-details/*"],
+      "run_at": "document_idle",
+      "js": ["options/js/util.js", "sites/storyfire.js"]
     }
   ],
   "web_accessible_resources": [

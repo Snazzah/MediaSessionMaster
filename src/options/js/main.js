@@ -142,6 +142,17 @@ const SiteData = [{
   hasExperiments: false,
   nsfw: false,
   key: 'jetsetradiolive',
+}, {
+  title: 'StoryFire',
+  url: 'https://storyfire.com',
+  flags: {
+    metadata: 'supported',
+    actions: 'native',
+    seeking: 'unsupported',
+  },
+  hasExperiments: false,
+  nsfw: false,
+  key: 'storyfire',
 }];
 
 window.addEventListener('load', async () => {
