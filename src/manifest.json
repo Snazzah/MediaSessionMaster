@@ -15,7 +15,7 @@
       "js": ["options/js/util.js", "sites/soundcloud.js"]
     },
     {
-      "matches": ["https://*.bandcamp.com/track/*", "https://*.bandcamp.com/album/*"],
+      "matches": ["https://*.bandcamp.com/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/bandcamp/content.js"]
     },

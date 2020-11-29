@@ -75,7 +75,7 @@
 
     navigator.mediaSession.metadata.title = TralbumData.trackinfo[0].title;
     document.querySelector('.inline_player .playbutton').addEventListener('click', updateInfo);
-  } else if(path.startsWith('/album/')) {
+  } else {
     const setToMain = () => {
       if(EmbedData.album_title !== navigator.mediaSession.metadata.album) setUpAlbum();
     };
