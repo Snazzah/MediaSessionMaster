@@ -63,6 +63,11 @@
       "matches": ["https://upbeatradio.net/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/upbeatradio.js"]
+    },
+    {
+      "matches": ["https://jetsetradio.live/*"],
+      "run_at": "document_idle",
+      "js": ["options/js/util.js", "sites/jetsetradiolive.js"]
     }
   ],
   "web_accessible_resources": [

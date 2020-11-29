@@ -131,6 +131,17 @@ const SiteData = [{
   hasExperiments: false,
   nsfw: false,
   key: 'upbeatradio',
+}, {
+  title: 'Jet Set Radio Live',
+  url: 'https://jetsetradio.live',
+  flags: {
+    metadata: 'supported',
+    actions: 'native',
+    seeking: 'unsupported',
+  },
+  hasExperiments: false,
+  nsfw: false,
+  key: 'jetsetradiolive',
 }];
 
 window.addEventListener('load', async () => {

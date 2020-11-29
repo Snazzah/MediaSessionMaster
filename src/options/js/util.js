@@ -17,6 +17,7 @@ const Util = window.Util = {
         newgrounds: { enable: true },
         listenmoe: { enable: true },
         upbeatradio: { enable: true },
+        jetsetradiolive: { enable: true },
       },
       darkTheme: window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)').matches : false,
     };
