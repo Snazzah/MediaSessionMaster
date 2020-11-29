@@ -53,6 +53,11 @@
       "matches": ["https://www.newgrounds.com/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/newgrounds/content.js"]
+    },
+    {
+      "matches": ["https://listen.moe/*"],
+      "run_at": "document_idle",
+      "js": ["options/js/util.js", "sites/listenmoe.js"]
     }
   ],
   "web_accessible_resources": [

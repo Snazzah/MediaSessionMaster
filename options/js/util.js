@@ -15,6 +15,7 @@ const Util = window.Util = {
         spotify: { enable: true },
         amazonmusic: { enable: true },
         newgrounds: { enable: true },
+        listenmoe: { enable: true },
       },
       darkTheme: window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)').matches : false,
     };

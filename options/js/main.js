@@ -109,6 +109,17 @@ const SiteData = [{
   hasExperiments: false,
   nsfw: false,
   key: 'newgrounds',
+}, {
+  title: 'LISTEN.moe',
+  url: 'https://listen.moe',
+  flags: {
+    metadata: 'supported',
+    actions: 'native',
+    seeking: 'unsupported',
+  },
+  hasExperiments: false,
+  nsfw: false,
+  key: 'listenmoe',
 }];
 
 window.addEventListener('load', async () => {
