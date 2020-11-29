@@ -41,6 +41,10 @@ Util.ensureSite('jetsetradiolive', () => {
     }];
   };
 
+  navigator.mediaSession.setActionHandler('nexttrack', () => {
+    document.querySelector('#nextTrackButton').dispatchEvent(new MouseEvent('mousedown'));
+  });
+
   const onMutation = mutations => {
     mutations.forEach(mutation => {
       if(!mutation.target || !mutation.target.id) return;
