@@ -15,7 +15,6 @@
   const changeObserver = new MutationObserver(() => {
     const sortedPlayers = NgMediaPlayer.players.sort(playerSort);
     const player = sortedPlayers.find(player => player.isPlaying()) || sortedPlayers[0];
-    console.log(player);
     if(player) {
       if (player.$container[0].id === 'global-audio-player-container') {
         if (!document.querySelector('.ng-apg-media-title')) return;
@@ -79,6 +78,11 @@
       {
         src: `https://picon.ngfiles.com/${portalID.substring(0, 3)}000/flash_${portalID}.png`,
         sizes: '140x90',
+        type: 'image/png'
+      },
+      {
+        src: `https://picon.ngfiles.com/${portalID.substring(0, 3)}000/flash_${portalID}_card.png`,
+        sizes: '720x425',
         type: 'image/png'
       },
     ];
