@@ -120,6 +120,17 @@ const SiteData = [{
   hasExperiments: false,
   nsfw: false,
   key: 'listenmoe',
+}, {
+  title: 'UpBeatRadio',
+  url: 'https://upbeatradio.net',
+  flags: {
+    metadata: 'supported',
+    actions: 'native',
+    seeking: 'unsupported',
+  },
+  hasExperiments: false,
+  nsfw: false,
+  key: 'upbeatradio',
 }];
 
 window.addEventListener('load', async () => {

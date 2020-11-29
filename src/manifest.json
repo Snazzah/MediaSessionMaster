@@ -58,6 +58,11 @@
       "matches": ["https://listen.moe/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/listenmoe.js"]
+    },
+    {
+      "matches": ["https://upbeatradio.net/*"],
+      "run_at": "document_idle",
+      "js": ["options/js/util.js", "sites/upbeatradio.js"]
     }
   ],
   "web_accessible_resources": [
