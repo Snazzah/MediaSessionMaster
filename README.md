@@ -1,15 +1,9 @@
 <div align="center">
-  <img src="/static/vector.svg" alt="logo" height=100 />
-  
-  # Media Session Master
+  <img src="/static/marquee-promo-tile.png" alt="banner" />
 
-[![version](https://img.shields.io/chrome-web-store/v/ifnpfinojkapkmeidcimnaigcclnahjb) ![users](https://img.shields.io/chrome-web-store/users/ifnpfinojkapkmeidcimnaigcclnahjb)](https://chrome.google.com/webstore/detail/media-session-master/ifnpfinojkapkmeidcimnaigcclnahjb)
 
-  <br>
-  <br>
+[![version](https://img.shields.io/chrome-web-store/v/ifnpfinojkapkmeidcimnaigcclnahjb) ![users](https://img.shields.io/chrome-web-store/users/ifnpfinojkapkmeidcimnaigcclnahjb)](https://chrome.google.com/webstore/detail/media-session-master/ifnpfinojkapkmeidcimnaigcclnahjb) [![DeepScan grade](https://deepscan.io/api/teams/11596/projects/14702/branches/278844/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=11596&pid=14702&bid=278844)
 </div>
-
-![Screenshot](static/screenshot.png)
 
 Media Session Master is a chrome extension that utilizes [Chrome's MediaSession API](https://developers.google.com/web/updates/2017/02/media-session) in sites that don't fully support it.
 
@@ -28,8 +22,7 @@ Once downloaded, in order to load the package:
 - **Extract the folder that is inside the ZIP** somewhere special.
 - Head to the Extensions page (`Chrome > Settings > Extensions`)
 - Flip the `Developer Mode` switch on the top right of the screen.
-- Click `Load unpacked` on the top left and select the folder you extracted.
-- Appreciate the effort!
+- Click `Load unpacked` on the top left and select the `src` folder from the folder you extracted.
 
 ### Sidenote: Firefox
 Firefox support is planned, however MediaSession API on Firefox is still experimental, and requires a flag to be checked. ([See caniuse](https://caniuse.com/mdn-api_mediasession)) At the moment, some sites such as Soundcloud are not working with the flag enabled and others may not work properly.
