@@ -8,7 +8,7 @@ Util.ensureSite('twitch', () => {
     if (!username || !avatar) return;
     if (!observingAvatar) {
       observingAvatar = true;
-      observer.observe(avatar, { attributes: true });
+      verifyObserver.observe(avatar, { attributes: true });
     }
     navigator.mediaSession.metadata.title = username.textContent;
     navigator.mediaSession.metadata.artist = 'Twitch';
