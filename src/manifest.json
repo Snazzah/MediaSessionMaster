@@ -73,6 +73,11 @@
       "matches": ["https://storyfire.com/video-details/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/storyfire.js"]
+    },
+    {
+      "matches": ["https://squid-radio.net/*", "https://www.squid-radio.net/*"],
+      "run_at": "document_idle",
+      "js": ["options/js/util.js", "sites/sittingonclouds.js"]
     }
   ],
   "web_accessible_resources": [

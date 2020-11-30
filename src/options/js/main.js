@@ -153,6 +153,17 @@ const SiteData = [{
   hasExperiments: false,
   nsfw: false,
   key: 'storyfire',
+}, {
+  title: 'Sitting on Clouds',
+  url: 'https://squid-radio.net',
+  flags: {
+    metadata: 'supported',
+    actions: 'native',
+    seeking: 'unsupported',
+  },
+  hasExperiments: false,
+  nsfw: false,
+  key: 'sittingonclouds',
 }];
 
 window.addEventListener('load', async () => {

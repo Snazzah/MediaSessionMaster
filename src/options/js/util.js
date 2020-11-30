@@ -19,6 +19,7 @@ const Util = window.Util = {
         upbeatradio: { enable: true },
         jetsetradiolive: { enable: true },
         storyfire: { enable: true },
+        sittingonclouds: { enable: true },
       },
       darkTheme: window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)').matches : false,
     };
