@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/static/marquee-promo-tile.png" alt="banner" />
+  <img src="/static/github-banner.png" alt="banner" />
 
 
 [![version](https://img.shields.io/chrome-web-store/v/ifnpfinojkapkmeidcimnaigcclnahjb) ![users](https://img.shields.io/chrome-web-store/users/ifnpfinojkapkmeidcimnaigcclnahjb)](https://chrome.google.com/webstore/detail/media-session-master/ifnpfinojkapkmeidcimnaigcclnahjb) [![DeepScan grade](https://deepscan.io/api/teams/11596/projects/14702/branches/278844/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=11596&pid=14702&bid=278844)
