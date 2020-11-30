@@ -15,6 +15,7 @@ Util.ensureSite('jetsetradiolive', () => {
     goldenrhinos: 'Golden Rhinos',
     ganjah: 'Ganjah',
     lofi: 'Lo-Fi',
+    siivagunner: 'SilvaGunner x JSR',
     silvagunner: 'SilvaGunner x JSR',
     futuregeneration: 'Future Generation',
     jetmashradio: 'Jet Mash Radio',
