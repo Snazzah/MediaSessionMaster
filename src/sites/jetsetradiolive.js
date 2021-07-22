@@ -5,6 +5,7 @@ Util.ensureSite('jetsetradiolive', () => {
     classic: 'Classic',
     future: 'Future',
     ultraremixes: 'Ultra Remixes',
+    garage: 'The Garage',
     ggs: 'GG\'s',
     noisetanks: 'Noise Tanks',
     poisonjam: 'Poison Jam',
@@ -15,18 +16,21 @@ Util.ensureSite('jetsetradiolive', () => {
     goldenrhinos: 'Golden Rhinos',
     ganjah: 'Ganjah',
     lofi: 'Lo-Fi',
-    siivagunner: 'SilvaGunner x JSR',
+    chiptunes: 'Chiptunes',
+    retroremix: 'Retro Remix',
+    classical: 'Classical Remix',
+    revolution: 'Revolution',
+    endofdays: 'End of Days',
     silvagunner: 'SilvaGunner x JSR',
     futuregeneration: 'Future Generation',
+    verafx: 'VeraFX',
     jetmashradio: 'Jet Mash Radio',
     djchidow: 'DJ Chidow',
     hover: 'Hover',
     butterflies: 'Butterflies',
-    toejamandearl: 'Toe Jam & Earl',
     ollieking: 'Ollie King',
     crazytaxi: 'Crazy Taxi',
-    revolution: 'Revolution',
-    endofdays: 'End of Days'
+    toejamandearl: 'Toe Jam & Earl'
   };
 
   const updateInfo = () => {
