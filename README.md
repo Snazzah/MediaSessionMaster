@@ -11,10 +11,7 @@ MediaSession API allows you to pause & play media within Chrome's UI and extends
 
 ## Installation
 
-| Available Webstores | 
-|-|
-| [![](https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png)](https://chrome.google.com/webstore/detail/media-session-master/ifnpfinojkapkmeidcimnaigcclnahjb) |
-| [![](https://get.snaz.in/47XfkZv.png)](https://addons.opera.com/en/extensions/details/media-session-master/) |
+[![](https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png)](https://chrome.google.com/webstore/detail/media-session-master/ifnpfinojkapkmeidcimnaigcclnahjb)
 
 
 You can download the development branch [here](https://github.com/Snazzah/MusicSessionMaster/archive/master.zip) or the stable branch [here](https://github.com/Snazzah/MusicSessionMaster/archive/stable.zip).
@@ -34,6 +31,6 @@ Contributions to the GitHub repository are greatly appreciated! Here's how you c
 - You can also create [pull requests](https://github.com/Snazzah/MediaSessionMaster/pulls) if you want to make features yourself! Make sure you push to the `master` branch and give a detailed description of your pull request!
 
 ## Credits
-Mostly inspired by [Animal Crossing Music Extension](https://acmusicext.com/), check it out!  
-I use [Chrome Bootstrap](https://github.com/roykolak/chrome-bootstrap) for the options page.  
-Music Session Master is licensed under the [zlib license](./LICENSE).  
+Mostly inspired by [Animal Crossing Music Extension](https://acmusicext.com/), check it out!
+I use [Chrome Bootstrap](https://github.com/roykolak/chrome-bootstrap) for the options page.
+Music Session Master is licensed under the [zlib license](./LICENSE).
