@@ -12,6 +12,7 @@ Util.ensureSite('twitch', () => {
     }
     navigator.mediaSession.metadata.title = username.textContent;
     navigator.mediaSession.metadata.artist = 'Twitch';
+    navigator.mediaSession.metadata.album = 'Twitch';
     navigator.mediaSession.metadata.artwork = [
       {
         src: avatar.src,
