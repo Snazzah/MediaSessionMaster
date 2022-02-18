@@ -11,17 +11,6 @@ const MainUtil = window.MainUtil = {
 };
 
 const SiteData = [{
-  title: 'SoundCloud',
-  url: 'https://soundcloud.com',
-  flags: {
-    metadata: 'supported',
-    actions: 'native',
-    seeking: 'unsupported',
-  },
-  hasExperiments: false,
-  nsfw: false,
-  key: 'soundcloud',
-}, {
   title: 'Bandcamp',
   url: 'https://bandcamp.com',
   flags: {

@@ -6,7 +6,7 @@ const Util = window.Util = {
       showNSFWSites: false,
       skipTime: 10,
       sites: {
-        soundcloud: { enable: true },
+        soundcloud: { enable: true }, // @deprecated
         bandcamp: { enable: true },
         twitch: { enable: true },
         clippit: { enable: true },

@@ -10,11 +10,6 @@
   "short_name": "MSM",
   "content_scripts": [
     {
-      "matches": ["https://soundcloud.com/*"],
-      "run_at": "document_idle",
-      "js": ["options/js/util.js", "sites/soundcloud.js"]
-    },
-    {
       "matches": ["https://*.bandcamp.com/*"],
       "run_at": "document_idle",
       "js": ["options/js/util.js", "sites/bandcamp/content.js"]
