@@ -1,16 +1,16 @@
 Util.ensureSite('sittingonclouds', () => {
-  navigator.mediaSession.metadata = new MediaMetadata();
-
   const updateInfo = () => {
-		if (!document.querySelector('.main_cover__3zSiG img')) return;
-    navigator.mediaSession.metadata.title = document.querySelector('#premidTitle').textContent;
-    navigator.mediaSession.metadata.artist = document.querySelector('#premidArtist').textContent;
-    navigator.mediaSession.metadata.album = document.querySelector('#premidAlbum').textContent;
-    navigator.mediaSession.metadata.artwork = [{
-      src: document.querySelector('.main_cover__3zSiG img').src,
-      sizes: '500x500',
-      type: 'image/jpeg'
-    }];
+    if (!document.querySelector('.row:nth-child(1) .marquee_marquee__1MS_n').textContent) return;
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: document.querySelector('.row:nth-child(2) .marquee_marquee__1MS_n').textContent,
+      artist: document.querySelector('.row:nth-child(1) .marquee_marquee__1MS_n').textContent,
+      album: document.querySelector('.row:nth-child(3) .marquee_marquee__1MS_n').textContent,
+      artwork: [{
+        src: document.querySelector('.player_background__2a6F5 img').src,
+        sizes: '500x500',
+        type: 'image/jpeg'
+      }]
+    });
   };
 
   const onMutation = mutations => {
@@ -18,10 +18,8 @@ Util.ensureSite('sittingonclouds', () => {
 			if(!mutation.target) return;
 			if (mutation.target.tagName === 'IMG')
 				return updateInfo();
-      switch(mutation.target.id) {
-        case "premidArtist":
-        case "premidTitle":
-				case "premidAlbum":
+      switch(mutation.target.className) {
+				case "marquee_marquee__1MS_n":
           updateInfo();
           break;
       }
@@ -29,7 +27,7 @@ Util.ensureSite('sittingonclouds', () => {
   };
 
   const observer = new MutationObserver(onMutation);
-  observer.observe(document.querySelector('.main_songData__3dCZO .col'), { subtree: true, attributes: true });
-  observer.observe(document.querySelector('.main_cover__3zSiG img'), { attributes: true });
+  observer.observe(document.querySelector('.player_content__2HaZS:not(.my-2)'), { subtree: true, attributes: true });
+  observer.observe(document.querySelector('.player_background__2a6F5 img'), { attributes: true });
 	updateInfo();
 });
